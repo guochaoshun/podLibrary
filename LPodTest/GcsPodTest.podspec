@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'GcsPod'
+  s.name             = 'GcsPodTest'
   s.version          = '0.9.0'
   s.summary          = '工程常见初始化宏,类别.'
 
@@ -20,11 +20,4 @@ DESC
 
   s.source_files = 'LPodTest/LPodTest/Classes/*.{h,m}'
 
-  # s.resource_bundles = {
-  #   'LPodTest' => ['LPodTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
