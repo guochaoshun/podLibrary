@@ -26,13 +26,13 @@ DESC
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guochaoshun' => '3111075791@qq.com' }
-  s.source           = { :git => 'https://github.com/guochaoshun/LPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/guochaoshun/podLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LPodTest/Classes/**/*'
-  
+  s.source_files = 'LPodTest/LPodTest/Classes/*.{h,m}'
+
   # s.resource_bundles = {
   #   'LPodTest' => ['LPodTest/Assets/*.png']
   # }
