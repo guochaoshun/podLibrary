@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GcsPodTest'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = '工程常见初始化宏,类别.'
 
 
