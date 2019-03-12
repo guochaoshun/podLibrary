@@ -29,16 +29,20 @@
 
 @implementation NSDictionary (JsonLog)
 
-//- (NSString *)descriptionWithLocale:(id)locale {
-//    return [self description];
-//}
-
-- (NSString *)description{
+- (NSString *)jsonDescription {
     if ( [NSJSONSerialization isValidJSONObject:self] ) {
         NSData * data = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:nil];
         NSString * result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         result = [result stringByReplacingOccurrencesOfString:@"\\" withString:@""] ;
         return result;
+    }
+    return nil;
+}
+
+- (NSString *)description{
+    NSString * json = self.jsonDescription ;
+    if (json) {
+        return json;
     }
     return [NSString stringWithFormat:@"%@",self];
 

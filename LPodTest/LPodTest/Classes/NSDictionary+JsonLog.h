@@ -16,4 +16,6 @@
 
 @interface NSDictionary (JsonLog)
 
+@property (nonatomic,readonly,copy) NSString * jsonDescription ;
+
 @end

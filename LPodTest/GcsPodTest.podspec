@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'GcsPodTest'
+  s.name             = 'GcsPod'
   s.version          = '0.1.1'
   s.summary          = '工程常见初始化配置.'
 
@@ -12,11 +12,9 @@ Pod::Spec.new do |s|
 DESC
 
   s.homepage         = 'https://github.com/guochaoshun'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guochaoshun' => '3111075791@qq.com' }
+  s.author           = { 'guochaoshun' => '657257897@qq.com' }
   s.source           = { :git => 'https://github.com/guochaoshun/podLibrary', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
